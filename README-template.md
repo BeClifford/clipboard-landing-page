@@ -12,11 +12,9 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -45,6 +43,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+Having gotten access to my desing files, I read importants text embedded in the README.txt file to understand what was required of me in the challenge.
+
+I noted them down and followed the instruction I was give, i.e screen sizes, colors, font size.
+
+I then analyzed the design to acertain how I could stucture and group information provided me, it using Html. From there I worked on the Css classes, variables and utilitie, after which I coded the entire site with Html and styled it using CSS.
+
+Note: Some of the decisions I made was entirely from me because I was given much details to work with.
+
+Finallly, I went through the site to make sure everything was working perfectly and then created the README file.
 
 ### Built with
 
@@ -53,48 +60,39 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I have learnt alot from this challenge, from critical analysis of the design to how to structure it. A critical lesson I gained is why its important to define your :roots, classes as well as utilities to make the process easy and unrepetitive.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<section class="wrapper">
+        <div class="headline-box">
+          <h1> A history of everything you copy</h1>
+          <p>Clipboard allows you to track and <br>organize
+          everything you copy. Instantly <br>access your clipboard on all your devices.</p>
+</section>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+    /* Base */
+    --clr-primary-500: hsl(171, 66%, 44%);
+    --clr-secondary-100: hsl(233, 100%, 69%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Here are some areas I focus on and strive improving in the near future:
+// HTML //
+- Html structuring
+- Classes naming
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+// CSS //
+- Defining classes and utilities well to avoid incosistency and     redundancy
+- Responsiveness (Flexbox- *flex*) and (Grid).
+- Fluid Typography.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
@@ -102,10 +100,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I give much gratitude to AppBrewery() for designing such a wonderful course on Udemy for us!
+Also, thanks to Youtube creators:
+- Coder Coder 
+- Kevin Powell
+- Coding2go etc....
+Their online resources has contributed to my current state in this journey to becoming a web developer.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
